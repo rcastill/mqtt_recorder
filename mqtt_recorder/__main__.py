@@ -1,8 +1,8 @@
 from mqtt_recorder.recorder import MqttRecorder, SslContext
 import argparse
 import time
-import csv
 import json
+import csv
 
 parser = argparse.ArgumentParser(
     prog='mqtt_recorder',
